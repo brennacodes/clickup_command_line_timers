@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
-ruby /usr/local/bin/record_commit_timestamp.rb "$(git log -1 --pretty=%B)"
+ruby /usr/local/bin/record_commit.rb "$(git log -1 --pretty=%B)"
 
 ############# DO NOT COPY THIS LINE OR ANYTHING BELOW INTO YOUR FINAL FILE ##############
 # Copy and paste lines 1 & 2 into a file named `post-commit` (NO EXTENSION) inside of your 
