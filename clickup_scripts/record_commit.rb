@@ -56,7 +56,7 @@ def record_commit_timestamp(commit_message)
     start: @start_time.to_i,
     billable: false,
     duration: CURRENT_TIME.to_i - @start_time.to_i,
-    assignee: BRENNA,
+    assignee: USER_ID,
     tid: info_hash[:task_id]
   }.to_json
 
