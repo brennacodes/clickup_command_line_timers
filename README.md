@@ -1,5 +1,6 @@
 # ClickUp Timer Command Line Scripts
-Start and Stop your ClickUp timers with a simple command. Use Git hooks to automatically add time to a timer as a successful commit is posted.
+Start and Stop your ClickUp timers with a simple command. Use Git hooks to automatically add time to a timer as a successful commit is posted.  
+[Click here to jump to the section on Git hooks](#how-to-create-a-global-post-commit-git-hook)
 
 ## How to use the command line to start and stop a timer for a task...
 1. Fork or clone this repo.
@@ -17,7 +18,7 @@ Run the command `cu start <tag> <note>` from your terminal.
 You should receive a message indicating whether the timer succesfully started, or whether an error was encountered.  
   
 ##### To stop a timer:
-Run the command `cu stop <tag> <not>` from your terminal.  
+Run the command `cu stop <tag> <note>` from your terminal.  
 You should receive a message indicating whether the timer succesfully stopped, or whether an error was encountered.  
 
 ## How To Create a Global Post-Commit Git Hook
